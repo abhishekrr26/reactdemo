@@ -1,0 +1,18 @@
+.di{
+  border: 1px solid;
+  width: 35%;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  padding: 10px 30px;
+  padding-right: 70px;
+  border-radius: 10px;
+}
+ul{
+  text-align: center;
+  list-style-position: inside;
+  
+}
+li{
+  border-radius: 10px;
+}
