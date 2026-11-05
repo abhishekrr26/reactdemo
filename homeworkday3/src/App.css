@@ -1,0 +1,13 @@
+input{
+  width: 200px;
+  padding: 10px;
+}
+button{
+  margin-top: 10px;
+  width: 100px;
+  padding: 5px;
+  background-color: rgb(1, 145, 255);
+  border: none;
+  color: white;
+  border-radius: 3px;
+}
