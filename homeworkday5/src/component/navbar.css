@@ -1,0 +1,11 @@
+.active{
+    color: green;
+    display: block;
+    padding: 0.5rem 1rem;
+
+}
+.neutral{
+    color: aliceblue;
+    display: block;
+    padding: 0.5rem 1rem;
+}
