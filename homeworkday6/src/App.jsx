@@ -198,7 +198,6 @@ function App() {
               </tr>
 
             ) : (
-
               filterdata.map((item) => (
 
                 <tr key={item.id}>
