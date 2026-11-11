@@ -1,0 +1,253 @@
+
+/* GENERAL PAGE */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f5f9;
+  padding: 30px;
+}
+
+
+/* HEADING */
+
+h1 {
+  text-align: center;
+  color: #263248;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+
+/* ADD STUDENT FORM */
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+
+
+/* ALL INPUTS */
+
+input {
+  padding: 11px 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #4361ee;
+  box-shadow: 0 0 5px rgba(67, 97, 238, 0.3);
+}
+
+
+/* ALL BUTTONS */
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+
+/* ADD BUTTON */
+
+.add-btn {
+  background-color: #4361ee;
+  color: white;
+}
+
+.add-btn:hover {
+  background-color: #3049c7;
+}
+
+
+/* SEARCH INPUT */
+
+.search-input {
+  display: block;
+  width: 300px;
+  margin: 0 auto 25px;
+}
+
+
+/* TABLE CONTAINER */
+
+.table-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  overflow-x: auto;
+  border-radius: 8px;
+}
+
+
+/* TABLE */
+
+table {
+  width: 100%;
+  min-width: 650px;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+
+/* TABLE HEADING */
+
+thead {
+  background-color: #263248;
+  color: white;
+}
+
+th {
+  padding: 15px;
+  text-align: center;
+}
+
+
+/* TABLE CELLS */
+
+td {
+  padding: 13px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+  color: #333;
+}
+
+
+/* ALTERNATE ROW COLORS */
+
+tbody tr:nth-child(even) {
+  background-color: #f7f8fc;
+}
+
+
+/* ROW HOVER */
+
+tbody tr:hover {
+  background-color: #edf1ff;
+}
+
+
+/* EDIT BUTTON */
+
+.edit-btn {
+  background-color: #f4a261;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #e07a25;
+}
+
+
+/* DELETE BUTTON */
+
+.delete-btn {
+  background-color: #e63946;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #bd202e;
+}
+
+
+/* SAVE BUTTON */
+
+.sav {
+  background-color: #2a9d8f;
+  color: white;
+  margin: 3px;
+}
+
+.sav:hover {
+  background-color: #21867a;
+}
+
+
+/* CANCEL BUTTON */
+
+.can {
+  background-color: #6c757d;
+  color: white;
+  margin: 3px;
+}
+
+.can:hover {
+  background-color: #495057;
+}
+
+
+/* EDIT INPUT FIELDS */
+
+td input {
+  width: 100%;
+  min-width: 90px;
+}
+
+
+/* ACTION BUTTONS */
+
+.action-buttons {
+  white-space: nowrap;
+}
+
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 700px) {
+
+  body {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 23px;
+  }
+
+  form {
+    flex-direction: column;
+  }
+
+  form input,
+  form button {
+    width: 100%;
+  }
+
+  .search-input {
+    width: 100%;
+  }
+
+  table {
+    font-size: 12px;
+  }
+
+  th,
+  td {
+    padding: 8px 5px;
+  }
+
+  td button {
+    padding: 7px;
+    font-size: 11px;
+  }
+
+}
